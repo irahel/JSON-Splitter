@@ -5,7 +5,7 @@ Esse scritp em `Python` divide um arquivo base `JSON` em múltiplos arquivos men
 ## Instalando Requisitos
 
 O script usa a biblioteca `numpy` e portanto necessita que esteja devidamente instalada.
-Também é necessaria que o `pip` esteja instalado.
+Também é necessaria que o módulo `pip` esteja instalado.
 
 Para instalar utilize:
 ```
@@ -13,7 +13,7 @@ $ pip install numpy
 ```
 ## Utilizando o script
 
-A utilização do script é feita passando os parâmetros necessários pelo prŕoprio terminal com a seguinte formatação
+A utilização do script é feita passando os parâmetros necessários pelo próprio terminal com a seguinte formatação:
 
 ```
 $ python3 json_splitter.py <Arquivo JSON BASE> <JSON SAIDA 1> <JSON SAIDA 2> ...
