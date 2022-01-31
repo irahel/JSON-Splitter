@@ -2,16 +2,6 @@ import json
 import numpy as np
 import sys
 
-# NUM_PARTS = 3
-
-# nomes = [
-#             "isaac",
-#             "rahel",
-#             "rodrigo"
-#         ]
-# if NUM_PARTS != len(nomes):
-#     raise ValueError
-
 if len(sys.argv) < 4:
     print("Quantidade de argumentos inválida!")
     exit()
