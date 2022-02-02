@@ -22,7 +22,7 @@ $ python3 json_splitter.py <Arquivo JSON BASE> <JSON SAIDA 1> <JSON SAIDA 2> ...
 
 - Os campos **JSON SAIDA** precisam conter apenas o nome do arquivo `JSON` sem necessidade de se indicar o formato.
 
-exemplo de utilização que criou os arquivos presente neste repositório
+exemplo de utilização que criou os arquivos presentes neste repositório
 ```
 $ python3 json_splitter.py exemplo.json arquivo1 arquivo2 arquivo3
 ```
