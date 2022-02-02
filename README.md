@@ -4,12 +4,12 @@ Esse scritp em `Python` divide um arquivo base `JSON` em múltiplos arquivos men
 
 ## Instalando Requisitos
 
-O script usa a biblioteca `numpy` e portanto necessita que esteja devidamente instalada.
+O script usa algumas bibliotecas externas e portanto necessita que estejam devidamente instaladas.
 Também é necessaria que o módulo `pip` esteja instalado.
 
-Para instalar utilize:
+Para instalá-las utilize:
 ```
-$ pip install numpy
+$ pip install -r requirements.txt
 ```
 ## Utilizando o script
 
