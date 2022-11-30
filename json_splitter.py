@@ -5,15 +5,11 @@ import rich
 
 if len(sys.argv) < 4:
     raise ValueError("Número de argumentos menor que 4")
-    exit()
-
 try:
     with open(sys.argv[1], "r", encoding="utf-8") as file:
         file = json.load(file)
 except FileNotFoundError:
     raise FileNotFoundError(f"Arquivo JSON --> {sys.argv[1]} base inválido!")
-    exit()
-
 nomes = sys.argv[2:]
 num_parts = len(nomes)
 
